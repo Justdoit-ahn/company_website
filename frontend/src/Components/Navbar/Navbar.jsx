@@ -61,7 +61,7 @@ export const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         } lg:hidden`}
       >
-        <di className="p-4">
+        <div className="p-4">
           <button
             className="text-2xl mb-8 float-right"
             onClick={toggleMenu}
@@ -89,7 +89,7 @@ export const Navbar = () => {
             <option value="ko">대한민국</option>
             <option value="en">미국</option>
           </select>
-        </di>
+        </div>
       </div>
     </nav>
   );
